@@ -1,1 +1,16 @@
-# mvc-ddd-ef-ioc-automapper
+# Projeto Base
+
+Projeto criado em ASP.NET MVC, utilizando .Net Framework, DDD, EF, IoC e AutoMapper
+
+# Description
+
+Este é um projeto de modelo, utilizando algumas tecnologias e padrões de projetos:
+- Asp.Net
+- .Net Framework
+- DDD (Domain Drive Design)
+- Entity Framework (Code First and Migrations)
+- Fluent API
+- Sql Server
+- AutoMapper
+- IoC (Ninject)
+- Linq
