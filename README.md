@@ -2,7 +2,7 @@
 
 Projeto criado em ASP.NET MVC, utilizando .Net Framework, DDD, EF, IoC e AutoMapper
 
-# Description
+# Descrição
 
 Este é um projeto de modelo, utilizando algumas tecnologias e padrões de projetos:
 - Asp.Net
