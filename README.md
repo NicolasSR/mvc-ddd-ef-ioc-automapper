@@ -5,7 +5,7 @@ Projeto criado em ASP.NET MVC, utilizando .Net Framework, DDD, EF, IoC e AutoMap
 # Descrição
 
 Este é um projeto de modelo, utilizando algumas tecnologias e padrões de projetos:
-- Asp.Net
+- ASP.NET MVC
 - .Net Framework
 - DDD (Domain Drive Design)
 - Entity Framework (Code First and Migrations)
