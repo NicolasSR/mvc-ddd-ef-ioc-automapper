@@ -12,5 +12,5 @@ Este é um projeto de modelo, utilizando algumas tecnologias e padrões de proje
 - Fluent API
 - Sql Server
 - AutoMapper
-- IoC (Ninject)
+- IoC (Simple Injector)
 - Linq
