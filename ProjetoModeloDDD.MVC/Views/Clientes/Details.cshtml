@@ -1,0 +1,54 @@
+﻿@model ProjetoModeloDDD.MVC.ViewModels.ClienteViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>ClienteViewModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Sobrenome)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Sobrenome)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Ativo)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ClienteId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
