@@ -1,6 +1,15 @@
-﻿namespace ProjetoModeloDDD.MVC.AutoMapper
+﻿using AutoMapper;
+using ProjetoModeloDDD.Domain.Entities;
+using ProjetoModeloDDD.MVC.ViewModels;
+
+namespace ProjetoModeloDDD.MVC.AutoMapper
 {
-    public class DomainToViewModelMappingProfile
+    public class DomainToViewModelMappingProfile : Profile
     {
+        public DomainToViewModelMappingProfile()
+        {
+            CreateMap<ClienteViewModel, Cliente>();
+            CreateMap<ProdutoViewModel, Produto>();
+        }   
     }
 }
