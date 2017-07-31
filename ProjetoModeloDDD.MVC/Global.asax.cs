@@ -1,4 +1,6 @@
-﻿using ProjetoModeloDDD.MVC.AutoMapper;
+﻿using ProjetoModeloDDD.Infra.CrossCutting.IoC;
+using ProjetoModeloDDD.MVC.AutoMapper;
+using SimpleInjector.Integration.Web.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +19,7 @@ namespace ProjetoModeloDDD.MVC
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(DIContainer.RegisterDependencies()));
             AutoMapperConfig.RegisterMappings();
         }
     }
